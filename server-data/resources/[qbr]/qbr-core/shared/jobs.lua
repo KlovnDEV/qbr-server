@@ -13,95 +13,116 @@ QBShared.Jobs = {
         },
 	},
 	['railroad'] = {
-		label = 'Railroad',
+		label = 'Jernbane',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Conductor',
+                name = 'Konduktør',
                 payment = 25
             },
         },
 	},
 	['police'] = {
-		label = 'Law Enforcement',
+		label = 'Politiet',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
-                payment = 50
+                name = 'Student (PHS)',
+                payment = 500
             },
 			['1'] = {
-                name = 'Officer',
-                payment = 75
+                name = 'Betjent',
+                payment = 1000
             },
 			['2'] = {
-                name = 'Sergeant',
-                payment = 100
+                name = 'Førstebetjent',
+                payment = 1500
             },
 			['3'] = {
-                name = 'Lieutenant',
-                payment = 125
+                name = 'Overbetjent',
+                payment = 2000
             },
 			['4'] = {
-                name = 'Chief',
-				isboss = true,
-                payment = 150
+                name = 'Politiadvokat',
+                payment = 2500
             },
+            ['5'] = {
+                name = 'Politimektig',
+                payment = 3000
+            },
+			['6'] = {
+                name = 'Politifullmektig',
+                payment = 3500
+            },
+			['7'] = {
+                name = 'Assisterende Politimester',
+                payment = 4000
+            },
+			['8'] = {
+                name = 'Politimester',
+                isboss = true,
+                payment = 4500
+            },
+			['9'] = {
+                name = 'Assisterende Politidirektør',
+				isboss = true,
+                payment = 5000
+            },
+            ['10'] = {
+                name = 'Politidirektør',
+				isboss = true,
+                payment = 5500
         },
 	},
 	['ambulance'] = {
-		label = 'EMS',
+		label = 'Ambulansen',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
-                payment = 50
+                name = 'Lærling',
+                payment = 500
             },
 			['1'] = {
-                name = 'Paramedic',
-                payment = 75
+                name = 'Ambulansearbeider',
+                payment = 1000
             },
 			['2'] = {
-                name = 'Doctor',
-                payment = 100
+                name = 'Lege',
+                payment = 1500
             },
 			['3'] = {
-                name = 'Surgeon',
-                payment = 125
-            },
-			['4'] = {
-                name = 'Chief',
+                name = 'Helsedirektør',
 				isboss = true,
-                payment = 150
+                payment = 2000
             },
         },
 	},
 	['realestate'] = {
-		label = 'Real Estate',
+		label = 'Eiendoms',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Recruit',
+                name = 'Lærling',
                 payment = 50
             },
 			['1'] = {
-                name = 'House Sales',
+                name = 'Selger 1',
                 payment = 75
             },
 			['2'] = {
-                name = 'Business Sales',
+                name = 'Selger 2',
                 payment = 100
             },
 			['3'] = {
-                name = 'Broker',
+                name = 'Bokfører',
                 payment = 125
             },
 			['4'] = {
-                name = 'Manager',
+                name = 'Direktør',
 				isboss = true,
                 payment = 150
             },
@@ -113,18 +134,18 @@ QBShared.Jobs = {
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Judge',
+                name = 'Dommer',
                 payment = 100
             },
         },
 	},
 	['lawyer'] = {
-		label = 'Law Firm',
+		label = 'Lovfirma',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Associate',
+                name = 'Advokat',
                 payment = 50
             },
         },

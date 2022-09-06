@@ -1,7 +1,7 @@
 QBShared = QBShared or {}
 QBShared.Gangs = {
 	['none'] = {
-		label = 'No Gang',
+		label = 'Ingen Gjeng',
 		grades = {
             ['0'] = {
                 name = 'Unaffiliated'
@@ -9,19 +9,19 @@ QBShared.Gangs = {
         }
 	},
     ['odriscoll'] = {
-		label = "O'Driscoll Boys",
+		label = "O'Driscoll Guttene",
 		grades = {
             ['0'] = {
-                name = 'Recruit'
+                name = 'Rekrutt'
             },
 			['1'] = {
-                name = 'Enforcer'
+                name = 'Håndhever'
             },
 			['2'] = {
                 name = 'Shot Caller'
             },
 			['3'] = {
-                name = 'Boss',
+                name = 'Leder',
 				isboss = true
             },
         }
